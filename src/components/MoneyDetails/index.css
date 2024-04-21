@@ -1,0 +1,53 @@
+.list-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.balance-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #84cc16;
+  background-color: #ecfccb;
+  width: 30%;
+  border-radius: 20px;
+  padding: 10px;
+}
+.image {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+.income-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #06b6d4;
+  background-color: #cffafe;
+  width: 30%;
+  border-radius: 20px;
+  padding: 10px;
+}
+.expenses-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #7c3aed;
+  background-color: #ede9fe;
+  width: 30%;
+  border-radius: 20px;
+  padding: 10px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.rupees {
+  font-family: 'Roboto';
+  font-size: 25px;
+}

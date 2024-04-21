@@ -1,0 +1,14 @@
+.list-containerh {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7e858e;
+  align-items: center;
+}
+.headingh {
+  font-size: 15px;
+}
+.imageh {
+  height: 30px;
+  width: 30px;
+}
